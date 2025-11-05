@@ -99984,7 +99984,7 @@ l=B.c.aY(B.e.j(A.bd(m)),2,h)
 k=B.c.aY(B.e.j(A.av(m)),2,h)
 m=B.c.aY(B.e.j(A.ar(m)),4,h)
 return l+"/"+k+"/"+m}catch(i){}return a},
-J(a){var s,r,q,p=this,o=null,n=t.p,m=A.yf(A.b([A.eO(o,o,B.my,o,o,new A.ayM(p),o,o,o)],n),B.acn),l=A.d_(p.r,!1,"Cari kontak, barang, keterangan...",o,"",1,new A.ayN(p),o,A.np(B.qX,o,o),!1,!0,!1,o,o),k=A.c6(A.b([A.bK(A.d_(p.w,!0,o,o,"Dari",1,o,new A.ayO(p,a),o,!0,!1,!0,o,o),1),B.bv,A.bK(A.d_(p.x,!0,o,o,"Sampai",1,o,new A.ayP(p,a),o,!0,!1,!0,o,o),1),B.bv,A.iT(B.acG,new A.ayQ(p),o)],n),B.z,B.q,B.A,0,o)
+J(a){var s,r,q,p=this,o=null,n=t.p,m=A.yf(A.b([A.eO(o,o,B.my,o,o,new A.ayM(p),o,o,o)],n),B.acm),l=A.d_(p.r,!1,"Cari kontak, barang, keterangan...",o,"",1,new A.ayN(p),o,A.np(B.qX,o,o),!1,!0,!1,o,o),k=A.c6(A.b([A.bK(A.d_(p.w,!0,o,o,"Dari",1,o,new A.ayO(p,a),o,!0,!1,!0,o,o),1),B.bv,A.bK(A.d_(p.x,!0,o,o,"Sampai",1,o,new A.ayP(p,a),o,!0,!1,!0,o,o),1),B.bv,A.iT(B.acG,new A.ayQ(p),o)],n),B.z,B.q,B.A,0,o)
 if(p.d)s=B.fs
 else if(p.f.length===0)s=A.dy(A.c0("Belum ada data",o,o,o,o,A.eI(o,o,B.cm,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),o,o)
 else{s=A.a6(a,o,t.l).w
@@ -100279,7 +100279,7 @@ p=A.i5(s)
 k=p==null?0:p}catch(o){}r=this.a.c.ch
 n=r.gm().i(0,r.$ti.c.a(this.b.a))
 if(n==null)n=0
-if(k>0&&n===0){m="Belum dikerjakan"
+if(k>0&&n===0){m="Dalam Proses"
 l=B.hg}else if(n<k){m="Belum selesai"
 l=B.fz}else if(k>0&&n>=k){m="Selesai"
 l=B.jM}else{m="-"
@@ -100476,7 +100476,7 @@ s.L$=r
 s.K$=0
 this.b0()},
 J(a){var s=this,r=null,q=A.yf(r,B.acI),p=A.ew(12),o=A.vU(!1,s.e,B.Pw,!1,r,r,r,1,!1,r,r,r,r,r,r,B.an,B.o_,new A.ayY()),n=A.vU(!1,s.f,B.Py,!1,r,r,r,1,!0,r,r,new A.ayZ(s),r,r,r,B.an,r,new A.az_()),m=s.r,l=m?r:s.gams()
-return A.vn(q,A.dy(A.ok(A.Li(new A.aG(B.ez,A.u6(r,A.bJ(A.b([B.acj,B.c_,o,B.au,n,B.kl,A.c7(A.zH(m?B.a6J:B.acq,l,r),r,1/0),B.au,B.ack],t.p),B.z,B.q,B.ae,0,B.G),s.d),r),r,4,r,new A.cW(p,B.t)),B.qh,r,B.ap),r,r),r,r)}}
+return A.vn(q,A.dy(A.ok(A.Li(new A.aG(B.ez,A.u6(r,A.bJ(A.b([B.aci,B.c_,o,B.au,n,B.kl,A.c7(A.zH(m?B.a6J:B.acq,l,r),r,1/0),B.au,B.acj],t.p),B.z,B.q,B.ae,0,B.G),s.d),r),r,4,r,new A.cW(p,B.t)),B.qh,r,B.ap),r,r),r,r)}}
 A.ayV.prototype={
 $0(){return this.a.r=!0},
 $S:0}
@@ -100816,7 +100816,7 @@ n=A.cu(f,",",".")
 d=A.i5(n)
 o=d==null?0:d}r+=o}catch(j){}}c=a2>0?r/a2:0
 b=B.d.eW(c*100,0,100)
-if(a2>0&&J.d(r,0)){a="Belum dikerjakan"
+if(a2>0&&J.d(r,0)){a="Dalam proses"
 a0=B.hg}else if(r<a2){a="Belum selesai"
 a0=B.fz}else if(a2>0&&r>=a2){a="Selesai"
 a0=B.jM}else{a="-"
@@ -101609,10 +101609,10 @@ A.cm(this.b,!1).cJ()},
 $S:0}
 A.awX.prototype={
 $1(a){var s=null,r=this.a
-return A.jy(!0,A.bJ(A.b([A.eQ(s,new A.awU(r,a),s,B.aci,s),A.eQ(s,new A.awV(r,a),s,B.ach,s),A.eQ(s,new A.awW(r,a),s,B.acz,s),B.au],t.p),B.z,B.q,B.ae,0,B.G),!0,B.at,!0,!0)},
+return A.jy(!0,A.bJ(A.b([A.eQ(s,new A.awU(r,a),s,B.acn,s),A.eQ(s,new A.awV(r,a),s,B.ach,s),A.eQ(s,new A.awW(r,a),s,B.acz,s),B.au],t.p),B.z,B.q,B.ae,0,B.G),!0,B.at,!0,!0)},
 $S:61}
 A.awU.prototype={
-$0(){this.a.sc1("Belum dikerjakan")
+$0(){this.a.sc1("Dalam proses")
 A.cm(this.b,!1).cJ()},
 $S:0}
 A.awV.prototype={
@@ -101633,7 +101633,7 @@ if(!q){q=b.d
 q=B.d.bx(q,1)===0?B.e.j(B.d.eM(q)):B.d.j(q)}else q="0"
 A.l8(new A.ajm(this,new A.ba(null,t.am),b,new A.bW(new A.bn(p,B.a7,B.V),s),new A.bW(new A.bn(r,B.a7,B.V),s),new A.bW(new A.bn(q,B.a7,B.V),s)),a,!0,t.z)},
 alp(a){return this.TX(a,null)},
-J(a){return A.vn(A.yf(null,B.acl),new A.kw(new A.ajq(this),null),null,A.aLK(B.mB,new A.ajr(this,a)))}}
+J(a){return A.vn(A.yf(null,B.ack),new A.kw(new A.ajq(this),null),null,A.aLK(B.mB,new A.ajr(this,a)))}}
 A.ajm.prototype={
 $1(a){var s=this,r=null,q=A.a6(a,r,t.l).w,p=s.b,o=s.c,n=s.d,m=s.e,l=s.f,k=t.p
 return new A.aG(new A.ae(16,16,16,q.f.d),A.ok(A.u6(r,A.bJ(A.b([A.c0(o==null?"Tambah Barang":"Edit Barang",r,r,r,r,B.o4,r,r,r),B.c_,A.vU(!1,n,B.Pv,!1,r,r,r,1,!1,r,r,r,r,r,r,B.an,r,new A.aji()),A.vU(!1,m,B.Pz,!1,r,r,r,1,!1,r,r,r,r,r,r,B.an,r,r),A.vU(!1,l,B.Px,!1,r,r,B.o1,1,!1,r,r,r,r,r,r,B.an,r,new A.ajj()),B.c_,A.c6(A.b([A.iT(B.hK,new A.ajk(a),r),B.bv,A.zH(B.kt,new A.ajl(s.a,p,o,n,m,l,a),r)],k),B.z,B.cL,B.A,0,r),B.au],k),B.ai,B.q,B.ae,0,B.G),p),r,r,B.ap),r)},
@@ -109189,8 +109189,8 @@ B.a6Y=new A.jA(3,"hide")
 B.air=new A.jA(4,"remove")
 B.I4=new A.jA(5,"timeout")
 B.a6Z=new A.vD(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.acm=new A.c_("Laporan tapped",null,null,null,null,null,null,null,null,null,null)
-B.a7_=new A.on(B.acm,null,null,null,null,null,null,null,null,null,null,null,null,B.lO,null,null,null,B.R,null)
+B.acl=new A.c_("Laporan tapped",null,null,null,null,null,null,null,null,null,null)
+B.a7_=new A.on(B.acl,null,null,null,null,null,null,null,null,null,null,null,null,B.lO,null,null,null,B.R,null)
 B.acd=new A.c_("Username atau password salah",null,null,null,null,null,null,null,null,null,null)
 B.a70=new A.on(B.acd,null,null,null,null,null,null,null,null,null,null,null,null,B.lO,null,null,null,B.R,null)
 B.nS=new A.Ug(0,"TOP")
@@ -109573,14 +109573,14 @@ B.Iv=new A.c_("Biji",null,null,null,null,null,null,null,null,null,null)
 B.ace=new A.c_("Barang Masuk",null,null,null,null,null,null,null,null,null,null)
 B.acg=new A.c_("Master Barang",null,null,null,null,null,null,null,null,null,null)
 B.ach=new A.c_("Belum selesai",null,null,null,null,null,null,null,null,null,null)
-B.aci=new A.c_("Belum dikerjakan",null,null,null,null,null,null,null,null,null,null)
 B.aaZ=new A.n(!0,null,null,null,null,null,18,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.acj=new A.c_("Silakan login",null,B.aaZ,null,null,null,null,null,null,null,null)
+B.aci=new A.c_("Silakan login",null,B.aaZ,null,null,null,null,null,null,null,null)
 B.a9E=new A.n(!0,B.dl,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ack=new A.c_("Gunakan username: 1 dan password: 1 untuk demo",null,B.a9E,null,null,null,null,null,null,null,null)
-B.acl=new A.c_("Data Nama Barang",null,null,null,null,null,null,null,null,null,null)
+B.acj=new A.c_("Gunakan username: 1 dan password: 1 untuk demo",null,B.a9E,null,null,null,null,null,null,null,null)
+B.ack=new A.c_("Data Nama Barang",null,null,null,null,null,null,null,null,null,null)
 B.hK=new A.c_("Batal",null,null,null,null,null,null,null,null,null,null)
-B.acn=new A.c_("Rekap Barang Keluar",null,null,null,null,null,null,null,null,null,null)
+B.acm=new A.c_("Rekap Barang Keluar",null,null,null,null,null,null,null,null,null,null)
+B.acn=new A.c_("Dalam proses",null,null,null,null,null,null,null,null,null,null)
 B.aco=new A.c_("Dashboard",null,null,null,null,null,null,null,null,null,null)
 B.acq=new A.c_("Masuk",null,null,null,null,null,null,null,null,null,null)
 B.acr=new A.c_("Data berhasil dihapus",null,null,null,null,null,null,null,null,null,null)
